@@ -20,7 +20,7 @@ public class FtpCodeUpload {
          try {
    
              ftpClient.connect(ftpServer, 21);		//"qrcode-authentication.iq-joy.com"
-             ftpClient.login(ftpUser, ftpPass);	//"afcqrcode@qrcode-authentication.iq-joy.com"  "Victorious100%"
+             ftpClient.login(ftpUser, ftpPass);	
              ftpClient.enterLocalPassiveMode();
    
              boolean done = false;
@@ -60,7 +60,7 @@ public class FtpCodeUpload {
 	    if (subFiles != null && subFiles.length > 0) {
 	    	int no=0;
 	        for (File item : subFiles) {
-	        	System.out.println("ïtem:"+item);
+	        	System.out.println("Ã¯tem:"+item);
 	            String remoteFilePath = remoteDirPath + "/" + item.getName();
 	 
 	 
