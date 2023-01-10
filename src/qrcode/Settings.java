@@ -24,10 +24,8 @@ public class Settings {
 		fromEmail = prefs.get("fromID", "admin@iq-joy.com");
 		fromPassword = prefs.get("pwdID", "xyz"); 
 		
-		serverAddress = prefs.get("server", "http://qrcode-authentication.iq-joy.com/afcqrcode/getcodekeys.php?pass=John3:16");
-		addressJson = prefs.get("addresses", "ayoade adetunji");
-		ftpUsername = prefs.get("ftpuser", "afcqrcode@qrcode-authentication.iq-joy.com");
-		ftpPassword = prefs.get("ftpPassword", "Victorious100%");
+		//Get parameters from your documents
+
 		ftpDomain = prefs.get("ftpDomain", "qrcode-authentication.iq-joy.com");
 		ftpfolder =  prefs.get("ftpfolder", "/");
 	}
